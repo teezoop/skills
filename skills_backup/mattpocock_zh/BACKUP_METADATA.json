@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "backed_up_at": "2026-11-03T20:38:43+08:00",
+  "source": {
+    "local_path": "C:\\Users\\tangzp\\.wheelmaker\\skills\\github.com_mattpocock_skills",
+    "remote_url": "git@github.com:mattpocock/skills.git",
+    "package_version": "1.3.2",
+    "plugin_version": "1.3.2",
+    "git_commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "git_commit_url": "https://github.com/mattpocock/skills/commit/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "git_describe": "v1.3.1-54-g4ae2317",
+    "nearest_tag": "v1.3.1",
+    "tags_at_commit": [],
+    "head_ref": "HEAD",
+    "commit_time": "2026-10-31T14:23:30Z",
+    "commit_subject": "software-factory: glossary skill for designing a factory (#1316)",
+    "working_tree_clean": true,
+    "working_tree_status": []
+  },
+  "backup": {
+    "repository_relative_path": "skills_backup/mattpocock",
+    "scope": "All source working-tree files and directories, including hidden files, excluding the root .git directory.",
+    "excluded_paths": [
+      ".git"
+    ],
+    "verification_algorithm": "SHA-256",
+    "file_count": 184,
+    "directory_count": 98,
+    "total_bytes": 804810,
+    "all_file_hashes_verified": true
+  },
+  "upgrade": {
+    "baseline": "Use source.git_commit as the exact upgrade baseline; package_version and nearest_tag alone do not identify this snapshot.",
+    "compare_with_source_head_command": "git -C \"C:\\Users\\tangzp\\.wheelmaker\\skills\\github.com_mattpocock_skills\" diff 4ae2317ddb22b046e26455e4f9c9b3aaaf62212d HEAD -- .",
+    "note": "After updating the source repository, compare against this commit before replacing this backup. No source update was performed for this backup."
+  }
+}
