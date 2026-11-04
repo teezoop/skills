@@ -1,0 +1,5 @@
+interface:
+  display_name: "Bug 诊断"
+  short_description: "只诊断 Bug 根因并提出修复方案，记录全部假设验证结果，不实施最终修复。"
+policy:
+  allow_implicit_invocation: false
