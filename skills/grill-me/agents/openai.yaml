@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill Me · 深入追问"
+  short_description: "以设计树组织问题，逐轮深入追问计划与设计，为每题提供建议并明确关键决策。"
+policy:
+  allow_implicit_invocation: false
