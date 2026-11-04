@@ -1,6 +1,7 @@
 ---
 name: diagnosing-bugs
 description: 排查 bug 的入口。仅诊断根因并给出修复方案，不实施最终修复。仅在用户显式调用 diagnosing-bugs 时使用。
+disable-model-invocation: true
 ---
 
 # Bug 诊断

@@ -1,0 +1,5 @@
+interface:
+  display_name: "UE 提交迁移与 KDev MR"
+  short_description: "按数量或指定 hash 迁移提交到新分支，推送后创建 KDev MR 并返回完整链接。"
+policy:
+  allow_implicit_invocation: false

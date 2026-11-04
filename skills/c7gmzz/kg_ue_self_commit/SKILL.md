@@ -2,6 +2,7 @@
 name: kg_ue_self_commit
 description: 从远端源分支 cherry-pick 最近 n 个提交或指定 hash 列表到基于 kgcode-develop 新建的目标分支并推送，推送成功后自动创建 KDev MR 并输出完整长链接。此 skill 不会自动触发，只能通过明确指定 /kg_ue_self_commit 调用。
 user_invocable: true
+disable-model-invocation: true
 ---
 
 # kg_ue_self_commit — 从源分支 Pick 提交到新目标分支
