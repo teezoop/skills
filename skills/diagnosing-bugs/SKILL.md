@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Bug 诊断
 
-仅在用户显式调用 `diagnosing-bugs` 时执行，例如 `$diagnosing-bugs` 或 `/diagnosing-bugs`。本技能的交付物是 **bug 诊断结论**，包括根因、修复方案，以及所有已测试假设及其结果。
+仅在用户显式调用 `diagnosing-bugs` 时执行，例如 `$diagnosing-bugs` 或 `/diagnosing-bugs`。本技能的交付物是 **bug 诊断结论**，包括根因、修复方案，以及所有已测试假设及其结果。本技能不主动实施最终bug修复，需要用户决定是否最终按照交付的修复方案实施。
 
 ## 工作边界
 
